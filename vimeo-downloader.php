@@ -15,8 +15,8 @@
 * $video = $video->download(18026253);
 *
 * TODO
-* - Detect file extensions to add filename..
-*
+* - Detect file extensions to add filename
+* - Check directory is writeable
 */
 
 class vimeoDownloader
