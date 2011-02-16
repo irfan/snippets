@@ -14,7 +14,17 @@
 * $video = new vimeoDownloader;
 * $video = $video->download(18026253);
 *
-* TODO
+* And just
+* php vimeo-downloader.php
+* 
+* The output will be look like that;
+*
+* 18026253 -> download started from vimeo, please wait...
+* 18026253 -> Video saved with id name! 
+* 12529436 -> download started from vimeo, please wait...
+* 12529436 -> Video saved with id name! 
+*
+* @TODO
 * - Detect file extensions to add filename
 * - Check directory is writeable
 */
