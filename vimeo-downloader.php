@@ -157,8 +157,3 @@ class vimeoDownloader
 	
 	}
 }
-
-
-$videoID = array(18026253, 12529436);
-$video = new vimeoDownloader;
-$video = $video->download($videoID);
