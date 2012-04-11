@@ -19,9 +19,6 @@
 # Just copy to your home directory as .bashrc to installation.
 #
 
-export CLICOLOR=1
-
-export LSCOLORS=ExFxCxDxBxegedabagacad
 
 function pretty_prompt () {
 	_IFS=$IFS;
@@ -37,5 +34,5 @@ function pretty_prompt () {
 
 PROMPT_COMMAND=pretty_prompt;
 
-export PS1="\e[33;40m\$DIR \$ \e[0m"
+export PS1="\$DIR \$ "
 
